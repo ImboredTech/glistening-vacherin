@@ -1,0 +1,20 @@
+[[redirects]]
+  from = "/*"
+  to = "/errors/404.html"
+  status = 404
+[[redirects]]
+  from = "/*"
+  to = "/errors/401.html"
+  status = 401
+[[redirects]]
+  from = "/*"
+  to = "/errors/400.html"
+  status = 402
+[[redirects]]
+  from = "/*"
+  to = "/errors/403.html"
+  status = 403
+[[redirects]]
+  from = "/*"
+  to = "/errors/500.html"
+  status = 500
