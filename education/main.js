@@ -1,14 +1,3 @@
-/*
-All this code is copyright Orteil, 2013.
-	-with some help, advice and fixes by Debugbro and Opti
-	-also includes a bunch of snippets found on stackoverflow.com
-Spoilers ahead.
-http://orteil.dashnet.org
-*/
-
-/*=====================================================================================
-MISC HELPER FUNCTIONS
-=======================================================================================*/
 function l(what) {return document.getElementById(what);}
 function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
 
@@ -535,8 +524,8 @@ Game.Launch=function()
 			l('wrapper').className='mobile';
 		}
 
-		Game.SaveTo='CookieClickerGame';
-		if (Game.beta) Game.SaveTo='CookieClickerGameBeta';
+		Game.SaveTo='Education';
+		if (Game.beta) Game.SaveTo='EducationGameBeta';
 		l('versionNumber').innerHTML='v.'+Game.version+(Game.beta?' <span style="color:#ff0;">beta</span>':'');
 		l('links').innerHTML=(Game.beta?'<a href="../" target="blank">Live version</a> | ':'<a href="beta" target="blank">Try the beta!</a> | ')+'<a href="http://orteil.dashnet.org/experiments/cookie/" target="blank">Cookie Clicker Classic</a>';
 		//l('links').innerHTML='<a href="http://orteil.dashnet.org/experiments/cookie/" target="blank">Cookie Clicker Classic</a>';

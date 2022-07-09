@@ -1,10 +1,3 @@
-/*
-Orteil's sloppy Cookie Clicker dungeons
-
-Optimizations to do (not mentioning the dozens of missing features) :
--use canvas instead
--only compute AI for mobs with 2 tiles of view
-*/
 var LaunchDungeons=function()
 {
 	Game.GetWord=function(type)
