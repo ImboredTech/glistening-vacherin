@@ -1,15 +1,6 @@
 <?php
 	// Connect to the database
-	$dbhost = 'sql8.freemysqlhosting.net';
-	$dbuser = 'sql8602118';
-	$dbpass = 'DLNWchzc8t';
-	$dbname = 'sql8602118';
-	$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-
-	// Check for errors in the connection
-	if (!$conn) {
-		die("Connection failed: " . mysqli_connect_error());
-	}
+	require './config.php'
 
 	// Get the user's input from the form
 	$username = mysqli_real_escape_string($conn, $_POST['username']);

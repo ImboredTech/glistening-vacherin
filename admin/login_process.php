@@ -1,18 +1,7 @@
 <?php
 session_start();
-
+require './config.php'
 if(isset($_POST['username']) && isset($_POST['password'])){
-    $host = "sql8.freemysqlhosting.net";
-    $username = "sql8602118";
-    $password = "DLNWchzc8t";
-    $database = "sql8602118";
-
-    $conn = mysqli_connect($host, $username, $password, $database);
-
-    if(!$conn) {
-        die("Connection Failed: " . mysqli_connect_error());
-    }
-
     $username = $_POST['username'];
     $password = $_POST['password'];
 

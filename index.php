@@ -35,19 +35,7 @@
     <body>
       <div class="container">
 		  <?php
-			// Connect to the database
-      $dbhost = 'localhost';
-      $dbuser = 'root';
-      $dbpass = '';
-      $dbname = 'admin_database';
-			$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-
-			  // Check for errors in the connection
-			if (!$conn) {
-				die("Connection failed: " . mysqli_connect_error());
-			}
-
-			  // Retrieve the latest announcement from the database
+      require './admin/config.php';
 			$sql = "SELECT announcement_text FROM announcements ORDER BY announcement_id DESC LIMIT 1";
 			$result = mysqli_query($conn, $sql);
 
@@ -80,7 +68,7 @@
           <section id="how-do-it">
             <article>
               <h2>How we do it.</h2>
-              <p>Well, some schools blocking systems are really sifisticated. And lets say my schools is, you would use the common method of websockets. But my school and some other schools block websockets.</p>
+              <p>Well, some schools blocking systems are really sophisticated. And lets say my schools is, you would use the common method of websockets. But my school and some other schools block websockets.</p>
               <p>Then you could say well you could use embeds, and yes they could be used but they can be really laggy and some schools have better blocking systems than others so that might get blocked as well.</p>
               <p>So that only leaves one reliable option. Strip the game of its code and add it to a different file.</p>
             </article>
@@ -105,11 +93,13 @@
               <br>
               <a href="./fruitninja/index.html" class="yes">Fruit Ninja. (not my creation)</a>
               <br>
-              <a href="./currentlybeingfixed.html" class="yes">Cut the rope. (not my creation) CURRENTLY BEING FIXED!</a>
+              <a href="./asd/index.html" class="yes">Cut The Rope Time Travel (not my creation)</a>
               <br>
-              <a href="./yeahs/index.html" class="yes">Cookie Clicker. (not my creation) CURRENTLY BEING FIXED!</a>
+              <a href="./ls/index.html" class="yes">Cut The Rope (not my creation)</a>
               <br>
-              <a href="./currentlybeingfixed.html" class="yes">Defender. (not my creation) CURRENTLY BEING</a>
+              <a href="./stuff/index.html" class="yes">Cookie Clicker (not my creation, heavily edited by me to get working in school though)</a>
+              <br>
+              <a href="./defender/index.html" class="yes">Defender. (not my creation)</a>
               <br>
               <a href="./runner/game.html" class="yes">Runner. (not my creation)</a>
             </article>
@@ -119,18 +109,16 @@
                 <h2>Socials</h2>
                 <a href="https://twitter.com/imboredtech" class="yes"><br>Twitter: https://twitter.com/imboredtech</a>
                 <a href="https://github.com/imboredtech" class="yes"><br>Github: https://github.com/imboredtech</a>
-                <p>Made with love by Ilikefivem</p>
+                <p>Made with love by Johnny Franklin.❤</p>
                 <p>Little dislamer. Games like 1v1.lol and krunker.io (are just examples they are some more) won't be able to be played. This is due to me not having the tools to strip the code.</p>
                 <h2>Why did i do it.</h2>
                 <p>Well i am a student myself in a secondary school. (yes im British)</p>
-                <p>And congrats to the school that im in if they find me. (and no you can't check domain records they get destroyed after the domain change)</p>
-                <p>Anyway most people would get bored in lessons so why not give them something fun to do.</p>
+                <p>And most people would get bored in lessons so why not give them something fun to do.</p>
                 <h2>Contact</h2>
                 <p>Hey whats that? You want to contact me. Well your in luck.</p>
                 <p>Also use this for if this website has been blocked under your school or if there is any issues you find.</p>
-                <p>Email: imboredtech@gmail.com (checks everyday)</p>
-                <p>Twitter: @imboredtech (checks everyday)</p>
-                <p>Discord: [T-304] Bob Dylan#0001 (checks everyday)</p>
+                <p>Email: admin@chicagorp.co.uk (checks everyday)</p>
+                <p>Discord: Johnny Franklin#4886 (checks everyday)</p>
                 <a href="https://10fastfingers.com/typing-test/english"><img src="http://img.10fastfingers.com/badge/typing-test_1_DB.png" alt="Typing Test" /></a><p>Visit the <a href="https://10fastfingers.com/typing-test/english">Typing Test</a> and try!</p>            </article>
                 <iframe src="https://discord.com/widget?id=985562187139526736&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
               </section>
