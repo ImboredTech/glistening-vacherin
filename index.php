@@ -102,6 +102,8 @@
               <a href="./defender/index.html" class="yes">Defender. (not my creation)</a>
               <br>
               <a href="./runner/game.html" class="yes">Runner. (not my creation)</a>
+              <br>
+              <a href="./subway-surfers/index.html" class="yes">Subway Surfers (not my idea ofc, but programmed by me)</a>
             </article>
           </section>
           <section id="social">
