@@ -1,6 +1,6 @@
 <?php
 	// Connect to the database
-	require './config.php'
+	require './config.php';
 
 	// Get the user's input from the form
 	$username = mysqli_real_escape_string($conn, $_POST['username']);

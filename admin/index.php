@@ -51,6 +51,7 @@ if(!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 	<h1>Welcome to the landing page!</h1>
 	<div class="container">
 		<a href="announcements.php" class="button">Announcements</a>
+		<a href="../updates/submit.php" class="button">Submit An Dev Update</a>
 		<a href="logout.php" class="button logout">Log out</a>
 	</div>
 </body>

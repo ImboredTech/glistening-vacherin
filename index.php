@@ -61,7 +61,7 @@
               <a href="#block-website">Can't block website</a>
               <a href="#games">Games</a>
               <a href="https://twitter.com/imboredtech">News</a>
-              <a href="http://imboredtech.ml/admin/index.html">Admin Panel</a>
+              <a href="https://school.chicagorp.co.uk/updates">Dev Updates</a>
             </nav>
           </section>
           
